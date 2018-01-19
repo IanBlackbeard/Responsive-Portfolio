@@ -15,6 +15,12 @@ body {
   box-sizing: border-box;
 }
 
+.clearfix:after {
+content: " ";
+display: block;
+clear: both;
+}
+
 /* general */
 
 .container {
@@ -241,7 +247,6 @@ input[type=submit] {
 .container {
   margin: 0 auto;
   max-width: 769px;
-
 }
 
 #masthead {
@@ -249,16 +254,14 @@ input[type=submit] {
 }
 
 .main-section {
-  width: 60%;
-   
+  width: 60%;   
   margin: 0 auto 30;
   clear: both;
 }
 
 .sidebar {
   max-width: 100%;
-  width: 35%;
-   
+  width: 35%; 
   margin: 0 auto;
 }
 
@@ -269,7 +272,6 @@ input[type=submit] {
 .container {
   margin: 0 auto;
   max-width: 640px;
-
 }
 
 #masthead {
@@ -279,15 +281,13 @@ input[type=submit] {
 .main-section {
   width: 100%;
   float: none;
-  margin: 20;
-  
+  margin: 20;  
 }
 
 .sidebar { 
   width: 100%;
   float: left;
-  max-width: 768px;
-  
+  max-width: 768px; 
 }
 
 }
@@ -297,7 +297,6 @@ input[type=submit] {
 .container {
   margin: 0 auto;
   max-width: 640px;
-
 }
 
 #masthead {
@@ -307,24 +306,21 @@ input[type=submit] {
 .main-section {
   width: 100%;
   float: none;
-  margin: 20;
-  
+  margin: 20; 
 }
 
 .sidebar { 
   width: 100%;
   float: left;
   max-width: 639px;
-  
 }
 
  #logo {
    width: 100%;
    text-align: center;
-
  }
 
- nav {
+nav {
    clear: both;
    width: 100%;
    text-align: center;
